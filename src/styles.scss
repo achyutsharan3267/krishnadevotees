@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Source+Sans+3:wght@400;500;700&display=swap');
+
+
+// font-family: 'Handlee', cursive;
+// font-family: 'Source Sans 3', sans-serif;
+:root {
+    --borwn: #de8d38;
+    --white: #ffffff;
+    --black: #000000;
+    --heading:#000;
+   --headdingFont:'Source Sans 3', sans-serif;
+    --comunFont:'Handlee', cursive;
+    --backcolor:#fff5eb;
+  }
+  body{
+    font-family: var(--comunFont);
+    background-color: var(--backcolor);
+  }
+img{
+    width: 100%;
+}

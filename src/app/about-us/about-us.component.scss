@@ -1,0 +1,23 @@
+.about-heading{
+    h3{
+    font-family: var(--headdingFont);
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--heading);
+}}
+figure{
+        border-radius: 0 45px 0 45px;
+        overflow: hidden;
+        max-height: 360px;
+        img{
+            filter: saturate(0.5);
+            max-height: 360px;
+            object-fit: cover;
+        }
+}
+
+@media(min-width:992px){
+   
+}
