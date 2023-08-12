@@ -45,3 +45,20 @@
     width: 100%;
     opacity: 1 !important;
 }
+
+#header-sroll.small{
+    position: fixed;
+    background-color: rgba(255,255,255,0.8);
+}
+#header-sroll.small{
+    position:fixed;
+    left:0;
+    z-index: 999;
+    top:0;
+    width:100%;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
